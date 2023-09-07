@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuto HTML</title>
+  </head>
+  <body>
+    <header><h1>Tutoriel HTML</h1></header>
+    <main>
+    <!-- Titres -->
+    <div>
+      <h2>Titre</h12>
+      <h6>Titre</h6>
+    </div>
+    <!-- Texte -->
+    <div>
+      <p>Paragraphe 1</p>
+      <p>Paragraphe 2</p>
+      <span>Même ligne</span>
+      <p>
+        <em>Style</em> <strong>de</strong> <del>texte</del>
+        <mark>avec</mark> HTML
+      </p>
+    </div>
+    <!-- Lien et bouton -->
+    <div>
+      <a href="https://www.oriano.dev" target="_blank">Lien</a>
+      <button>Bouton vide</button>
+      <button>
+        <a href="https://www.oriano.dev" target="_blank">Lien</a>
+      </button>
+    </div>
+    <!-- Image -->
+    <div>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/023/338/222/original/ai-generative-roast-chicken-free-illustration-free-png.png"
+        alt="Poulet"
+        width="10%"
+      />
+    </div>
+    <!-- Listes -->
+    <div>
+      <h3>Viandes</h3>
+      <ul>
+        <li>poulet</li>
+        <li>boeuf</li>
+        <li>porc</li>
+      </ul>
+      <h3>Légumes</h3>
+      <ol>
+        <li>brocoli</li>
+        <li>salsifi</li>
+        <li>potiron</li>
+      </ol>
+    </div>
+    <!-- Tableau -->
+    <div>
+      <table>
+        <thead>
+          <th>Napoleon Hill</th>
+          <th>Brian Tracy</th>
+          <th>Robert Greene</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reflechissez...</td>
+            <td>Eat that frog...</td>
+            <td>Power...</td>
+          </tr>
+          <tr>
+            <td>Plus malin...</td>
+            <td>Power of self...</td>
+            <td>Laws of...</td>
+          </tr>
+          <tr>
+            <td>Lois du succès...</td>
+            <td>Time management...</td>
+            <td>Strategies...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Formulaires -->
+    <div>
+      <form>
+        <h2>Infos</h2>
+        <label for="1">Nom</label>
+        <input
+          type="text"
+          id="1"
+          minlength="3"
+          maxlength="36"
+          placeholder="Entrer votre nom"
+          value="Poisson"
+          required
+        />
+      </form>
+      <form>
+        <input type="text" />
+        <input type="number" />
+        <input type="email" />
+        <input type="password" />
+        <input type="search" />
+        <input type="time" />
+        <input type="date" />
+        <input type="range" value="5" min="0" max="10" step="2" />
+        <input type="submit" value="Valider" />
+        <textarea cols="30" rows="10"></textarea>
+      </form>
+      <form>
+        <h3>Se connecter</h3>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Votre email" id="email" required />
+      </br>
+        <label for="password">Mot de passe</label>
+        <input
+          type="password"
+          placeholder="Votre mot de passe"
+          id="password"
+          minlength="8"
+          maxlength="24"
+          required
+        /></br>
+        <input type="submit" value="Valider" />
+      </form>
+    </div>
+    <!-- Imbriquer vidéo YouTube -->
+    <div>
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/YR7dyQa-8q0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </main>
+    <footer>
+      <hr>
+      &copy; HTML 2023-2024
+    </footer>
+  </body>
+</html>
